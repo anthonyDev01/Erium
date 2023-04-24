@@ -32,10 +32,11 @@ export const Section = () => {
   ];
 
   return (
-    <div className="section">
+    <div className="section page">
       <div className="cardContainer">
-        {cards.map((card) => (
+        {cards.map((card, index) => (
           <CardSection
+            key={index}
             id={card.id}
             titulo={card.titulo}
             img={card.image}

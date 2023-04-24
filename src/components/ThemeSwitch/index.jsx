@@ -3,7 +3,8 @@ import "./index.css"
 
 export const ThemeSwitch = () => {
   return (
-    <div>
+    <div className="switchContainer menuDrop">
+      <h3>Tema</h3>
       <label className="switch">
         <span className="sun">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

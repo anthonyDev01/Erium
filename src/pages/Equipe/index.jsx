@@ -73,8 +73,9 @@ export const Equipe = () => {
 
   return (
     <div className="page equipe">
-      {equipe.map((membro) => (
+      {equipe.map((membro, index) => (
         <CardEquipe
+          key={index}
           nome={membro.nome}
           cargo={membro.cargo}
           img={membro.foto}

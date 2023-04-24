@@ -5,7 +5,7 @@ import gitHub from "../../assets/images/github.png";
 
 export const CardEquipe = (props) => {
   return (
-    <div className="cardEquipe">
+    <div key={props.index} className="cardEquipe">
       <div className="membroContainer">
         <img className="membro" src={props.img} alt="" />
         <h1>{props.nome}</h1>
