@@ -13,9 +13,7 @@ export function NavBar(props) {
   return (
     <div className={active}>
       <div className="menuDrop">
-        <button onClick={handleNav}>
-          <MoreButton />
-        </button>
+        <MoreButton handleNav={handleNav} />
 
         <h3>Menu</h3>
       </div>
@@ -34,7 +32,7 @@ export function NavBar(props) {
           <Link to={"/contato"}>Contato</Link>
         </li>
       </ul>
-      <ThemeSwitch />
+      <ThemeSwitch thmeToggler={props.thmeToggler} />
     </div>
   );
 }
