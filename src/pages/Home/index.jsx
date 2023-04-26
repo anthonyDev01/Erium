@@ -1,7 +1,4 @@
 import React from "react";
-import mala from "../../assets/images/mala.png";
-import passaporte from "../../assets/images/passaporte.png";
-import suporte from "../../assets/images/suporte.png";
 
 export const Home = (props) => {
   return (
@@ -21,5 +18,3 @@ export const Home = (props) => {
     </div>
   );
 };
-
-

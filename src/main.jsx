@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 
 import bannerPreto from "./assets/images/banner-dark.png";
+import bannerBranco from "./assets/images/banner-branco.png";
 import nuvemImg from "./assets/images/nuvem.png";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -49,7 +50,5 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-
-    <RouterProvider router={router} />
-
+  <RouterProvider router={router} />
 );

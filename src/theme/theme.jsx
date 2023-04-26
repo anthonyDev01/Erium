@@ -3,12 +3,13 @@ export const lightTheme = {
   primary: "#B7D5E5",
   secundary: "#D5E6F0",
 
-  fontColor: "#000"
+  fontColor: "#000",
 };
 
 export const darkTheme = {
-    primary: "#000022",
-    secundary: "#212529",
-  
-    fontColor: "#fff"
-  };
+  title: "dark",
+  primary: "#000022",
+  secundary: "#212529",
+
+  fontColor: "#fff",
+};

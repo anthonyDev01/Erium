@@ -28,5 +28,9 @@ export const GlobalColors = createGlobalStyle`
     background-color: ${(props) => props.theme.secundary};
   }
 
-
+  @media (max-width: 1092px){
+    .item {
+      background: none;
+  }
+  }
 `;

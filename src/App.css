@@ -57,6 +57,54 @@
   border-bottom: 1px solid black;
 }
 
+.navbarDrop {
+  width: 60%;
+  height: 100vh;
+
+  position: fixed;
+  top: 0px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  z-index: 90;
+}
+
+.navbarDrop .menuDrop {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.navbarDrop img {
+  display: none;
+}
+
+.navbarDrop ul {
+  width: 30%;
+}
+
+.navbarDrop li {
+  font-size: 18px;
+
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  width: 22vw;
+}
+
+.navbarDrop .switchContainer {
+  display: flex;
+}
+
+.switchContainer h3 {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
 a {
   text-decoration: none;
   color: black;
@@ -239,7 +287,6 @@ button {
 
   padding: 10px;
   border-radius: 10px;
-  filter: grayscale(1);
 }
 
 .cardEquipe:hover {
